@@ -1,0 +1,52 @@
+.Joinpage {
+  background-color: rgb(31, 29, 29);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Joincontainer {
+  /* border: 2px solid white; */
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Joincontainer > img {
+  width: 10vmax;
+}
+.Joincontainer > h1 {
+  color: wheat;
+  font-size: 20px;
+  width: 30vmax;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#input-class {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  margin-top: 150px;
+}
+.joinbtn {
+  width: 300px;
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  margin-top: 20px;
+  outline: none;
+  background-color: crimson;
+  color: aliceblue;
+  font-weight: 600;
+}
+.joinbtn:hover{
+    background-color: rgb(180,27,58);
+}
